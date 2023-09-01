@@ -1,0 +1,322 @@
+*{
+    border-radius: 5%;
+}
+.imgholder{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.tylerphoto{
+    width: 100%;
+}
+a{
+    color: white;
+}
+
+nav{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    height: 70px;
+
+}
+.navbar-brand{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+}
+.nav-link{
+    color:white;
+}
+.nav-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    
+}
+
+.ul-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:60%;
+    height: 100%;
+    margin: 1%;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+.backgroundpic{
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+    position: fixed;
+    margin-top: -500px;
+    margin-right: -50px;
+
+    width:100%
+}
+
+
+
+.fam-pic{
+    height: 700px;
+    width:600px;
+
+}
+.tys-name{
+    z-index: 1;
+    height: 19em;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    display: flex;
+    font-size: 3em;
+    text-shadow:5px 5px 10px black;
+}
+
+.shadow{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.63);
+    justify-content: center;
+    padding:3%;
+    margin: 0px;
+    margin-top:50px ;
+    
+
+}
+.grand-hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-content: center;
+}
+#buga{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow:5px 5px 10px black;
+}
+.tyler-stuff{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    height: 100%;
+    width: 99%;
+    padding:20px;
+    color:white;
+    
+
+}
+.hobby{
+    width:33%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.63);
+    align-items:center;
+    flex-grow: 1;
+    margin:10px;
+    padding: 15px;
+    
+    
+}
+.pro-stuff{
+    color:white;
+    
+    margin-top:300px
+}
+.head-container{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.resume-head{
+    width:50%;
+    background-color: rgba(0, 0, 0, 0.63);
+
+}
+.resume-h2{
+    display: flex;
+    justify-content: center;
+    text-shadow:5px 5px 10px black;
+
+}
+.resumepdf{
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+    text-decoration: underline;
+    color: white;
+    text-shadow:5px 5px 10px black;
+
+}
+.ASUpic{
+    height:200px;
+    width:210px;
+}
+.beer{
+    height: 200px;
+    width: 210px;
+}
+ #stockphoto{
+    height:200px;
+ }
+.skillblock{
+    display:grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 100px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding:20px
+    
+}
+.newlist{
+    display: flex;
+    flex-direction: column;
+    list-style-type:circle;
+}
+
+.skillsheader{
+    display: flex;
+    justify-content: center;
+}
+.conclusion{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding:20px;
+    
+}
+.how-header{
+    display: flex;
+    justify-content: center;
+    color:white;
+    text-shadow: 5px 5px 10px black;;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    padding-top: 200px;
+}
+    
+.con-container{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    margin-top: 300px;
+
+}
+.contact-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-shadow: 5px 5px 10px black;;
+}
+.duba{
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    
+    justify-content: space-around;
+}
+.dubadubi{
+    display: flex;
+    flex-direction: row;
+    width:100%
+}
+.inputstuff{
+    display: flex;
+    flex-direction: column;
+    width:60%
+}
+.text{
+    width:60%;
+}
+#subject{
+    height: 200px;
+    width:400px;
+}
+
+#aboutme{padding-top: 100px;
+margin-bottom: -300px;}
+
+#tys-name{
+    margin-bottom: -100px;
+}
+.gallarybox{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    margin-top: 300px;
+}
+.gallarycontainer{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.galhead{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    width:100%;
+    text-shadow: 5px 5px 10px black;;
+}
+.gal-sample{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:450px;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.63);
+    align-items: center;
+    
+}
+.imgcard{
+    display: flex;
+    flex-direction: row;
+    width:22%;
+    height: 80%;
+    
+
+
+}
+.image{
+    display:flex;
+    width:100%;
+    height: 100%;
+    
+}
+
+.galhead2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    text-shadow: 5px 5px 10px black;;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    font-size:x-large;
+}
